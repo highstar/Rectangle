@@ -19,6 +19,11 @@ int main(int argc, const char * argv[]) {
         [myRect setWidth: 5 andHeight: 8];
         myRect.origin = myPoint;
         
+        XYPoint *theOrigin = myRect.origin;
+        
+        theOrigin.x = 200;
+        theOrigin.y = 300;
+        
         NSLog(@"Origin at (%i, %i)", myRect.origin.x, myRect.origin.y);
         
         [myPoint setX: 50 andY: 50];
