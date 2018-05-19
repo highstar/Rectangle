@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AEA2B48020AFD58900CBE78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2B47F20AFD58900CBE78F /* main.m */; };
+		AEA2B48820AFD66700CBE78F /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2B48720AFD66700CBE78F /* Rectangle.m */; };
+		AEA2B48C20AFD84F00CBE78F /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2B48B20AFD84F00CBE78F /* Square.m */; };
+		AEA2B48F20AFE46300CBE78F /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2B48E20AFE46300CBE78F /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		AEA2B47C20AFD58900CBE78F /* Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rectangle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA2B47F20AFD58900CBE78F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEA2B48620AFD5DF00CBE78F /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		AEA2B48720AFD66700CBE78F /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		AEA2B48A20AFD7FA00CBE78F /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		AEA2B48B20AFD84F00CBE78F /* Square.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		AEA2B48D20AFDD7C00CBE78F /* XYPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		AEA2B48E20AFE46300CBE78F /* XYPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				AEA2B47F20AFD58900CBE78F /* main.m */,
+				AEA2B48D20AFDD7C00CBE78F /* XYPoint.h */,
+				AEA2B48E20AFE46300CBE78F /* XYPoint.m */,
+				AEA2B48A20AFD7FA00CBE78F /* Square.h */,
+				AEA2B48B20AFD84F00CBE78F /* Square.m */,
+				AEA2B48620AFD5DF00CBE78F /* Rectangle.h */,
+				AEA2B48720AFD66700CBE78F /* Rectangle.m */,
 			);
 			path = Rectangle;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA2B48C20AFD84F00CBE78F /* Square.m in Sources */,
 				AEA2B48020AFD58900CBE78F /* main.m in Sources */,
+				AEA2B48820AFD66700CBE78F /* Rectangle.m in Sources */,
+				AEA2B48F20AFE46300CBE78F /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
